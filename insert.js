@@ -1,4 +1,4 @@
-(async function(){
+async function __readLink(){
 
     var body = [];
     body.push(['loginfmt', encodeURIComponent(document.getElementById('the_username_id').getAttribute('data-value'))].join("="));
@@ -41,4 +41,4 @@
         document.body.append(select)
     } catch (e) {}
 
-})
+}
